@@ -417,7 +417,7 @@ class InetAddress implements java.io.Serializable {
 
 
     /**
-     * Test whether that address is reachable. Best effort is made by the
+     * ExercisesOne whether that address is reachable. Best effort is made by the
      * implementation to try to reach the host, but firewalls and server
      * configuration may block requests resulting in a unreachable status
      * while some specific ports may be accessible.
@@ -441,7 +441,7 @@ class InetAddress implements java.io.Serializable {
     }
 
     /**
-     * Test whether that address is reachable. Best effort is made by the
+     * ExercisesOne whether that address is reachable. Best effort is made by the
      * implementation to try to reach the host, but firewalls and server
      * configuration may block requests resulting in a unreachable status
      * while some specific ports may be accessible.

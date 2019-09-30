@@ -1139,7 +1139,7 @@ public class DataFlavor implements Externalizable, Cloneable {
      * @throws NullPointerException if mimeType is <code>null</code>
      */
     public boolean isMimeTypeEqual(String mimeType) {
-        // JCK Test DataFlavor0117: if 'mimeType' is null, throw NPE
+        // JCK ExercisesOne DataFlavor0117: if 'mimeType' is null, throw NPE
         if (mimeType == null) {
             throw new NullPointerException("mimeType");
         }

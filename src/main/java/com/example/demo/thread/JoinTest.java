@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.thread;
 
 public class JoinTest {
     public static void main(String[] args) throws InterruptedException {

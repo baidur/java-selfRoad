@@ -189,7 +189,7 @@ class BitSieve {
     }
 
     /**
-     * Test probable primes in the sieve and return successful candidates.
+     * ExercisesOne probable primes in the sieve and return successful candidates.
      */
     BigInteger retrieve(BigInteger initValue, int certainty, java.util.Random random) {
         // Examine the sieve one long at a time to find possible primes

@@ -1292,7 +1292,7 @@ public class TreeMap<K,V>
     }
 
     /**
-     * Test two values for equality.  Differs from o1.equals(o2) only in
+     * ExercisesOne two values for equality.  Differs from o1.equals(o2) only in
      * that it copes with {@code null} o1 properly.
      */
     static final boolean valEquals(Object o1, Object o2) {

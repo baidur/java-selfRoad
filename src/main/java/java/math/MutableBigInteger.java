@@ -1588,7 +1588,7 @@ class MutableBigInteger {
             rem.value[j+rem.offset] = 0;
             int borrow = mulsub(rem.value, divisor, qhat, dlen, j+rem.offset);
 
-            // D5 Test remainder
+            // D5 ExercisesOne remainder
             if (borrow + 0x80000000 > nh2) {
                 // D6 Add back
                 divadd(divisor, rem.value, j+1+rem.offset);
@@ -1649,7 +1649,7 @@ class MutableBigInteger {
             else
                 borrow = mulsubBorrow(rem.value, divisor, qhat, dlen, limit - 1 + rem.offset);
 
-            // D5 Test remainder
+            // D5 ExercisesOne remainder
             if (borrow + 0x80000000 > nh2) {
                 // D6 Add back
                 if(needRemainder)
@@ -1763,7 +1763,7 @@ class MutableBigInteger {
             rem.value[j + rem.offset] = 0;
             int borrow = mulsubLong(rem.value, dh, dl, qhat,  j + rem.offset);
 
-            // D5 Test remainder
+            // D5 ExercisesOne remainder
             if (borrow + 0x80000000 > nh2) {
                 // D6 Add back
                 divaddLong(dh,dl, rem.value, j + 1 + rem.offset);

@@ -33,15 +33,15 @@ package java.nio.file;
 
 public enum AccessMode {
     /**
-     * Test read access.
+     * ExercisesOne read access.
      */
     READ,
     /**
-     * Test write access.
+     * ExercisesOne write access.
      */
     WRITE,
     /**
-     * Test execute access.
+     * ExercisesOne execute access.
      */
     EXECUTE;
 }

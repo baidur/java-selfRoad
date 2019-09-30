@@ -1165,7 +1165,7 @@ public abstract class QuadCurve2D implements Shape, Cloneable {
             return false;       // All points below
         }
 
-        // Test for endpoints on the edge where either the segment
+        // ExercisesOne for endpoints on the edge where either the segment
         // or the curve is headed "inwards" from them
         // Note: These tests are a superset of the fast endpoint tests
         //       above and thus repeat those tests, but take more time

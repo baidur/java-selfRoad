@@ -1573,7 +1573,7 @@ public abstract class URLConnection {
      */
     static private boolean checkfpx(InputStream is) throws IOException {
 
-        /* Test for FlashPix image data in Microsoft Structured Storage format.
+        /* ExercisesOne for FlashPix image data in Microsoft Structured Storage format.
          * In general, should do this with calls to an SS implementation.
          * Lacking that, need to dig via offsets to get to the FlashPix
          * ClassID.  Details:
@@ -1694,7 +1694,7 @@ public abstract class URLConnection {
          * so for byte order changes, the order only changes for
          * the first 8 bytes in the ClassID.
          *
-         * Test against this, ignoring second byte (Intel) since
+         * ExercisesOne against this, ignoring second byte (Intel) since
          * this could change depending on part of Fpx file we have.
          */
 

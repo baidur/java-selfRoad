@@ -44,7 +44,7 @@ import java.nio.charset.UnsupportedCharsetException;
  * <pre>
  *       XMLEncoder e = new XMLEncoder(
  *                          new BufferedOutputStream(
- *                              new FileOutputStream("Test.xml")));
+ *                              new FileOutputStream("ExercisesOne.xml")));
  *       e.writeObject(new JButton("Hello, world"));
  *       e.close();
  * </pre>
@@ -402,7 +402,7 @@ public class XMLEncoder extends Encoder implements AutoCloseable {
                Note we must do the mark first as we may
                require the results of previous values in
                this context for this statement.
-               Test case is:
+               ExercisesOne case is:
                    os.setOwner(this);
                    os.writeObject(this);
             */

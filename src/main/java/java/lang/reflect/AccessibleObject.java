@@ -275,7 +275,7 @@ public class AccessibleObject implements AnnotatedElement {
                     cache2[0] == caller) {
                     return;     // ACCESS IS OK
                 }
-                // (Test cache[1] first since range check for [1]
+                // (ExercisesOne cache[1] first since range check for [1]
                 // subsumes range check for [0].)
             }
         } else if (cache == caller) {

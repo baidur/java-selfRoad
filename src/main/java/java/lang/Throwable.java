@@ -869,7 +869,7 @@ public class Throwable implements Serializable {
 
         synchronized (this) {
             if (this.stackTrace == null && // Immutable stack
-                backtrace == null) // Test for out of protocol state
+                backtrace == null) // ExercisesOne for out of protocol state
                 return;
             this.stackTrace = defensiveCopy;
         }

@@ -46,7 +46,7 @@ import org.xml.sax.helpers.DefaultHandler;
  * <pre>
  *       XMLDecoder d = new XMLDecoder(
  *                          new BufferedInputStream(
- *                              new FileInputStream("Test.xml")));
+ *                              new FileInputStream("ExercisesOne.xml")));
  *       Object result = d.readObject();
  *       d.close();
  * </pre>

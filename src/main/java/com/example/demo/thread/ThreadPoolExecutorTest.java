@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.thread;
 
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.RejectedExecutionHandler;

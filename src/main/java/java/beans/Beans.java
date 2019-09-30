@@ -395,7 +395,7 @@ public class Beans {
     }
 
     /**
-     * Test if we are in design-mode.
+     * ExercisesOne if we are in design-mode.
      *
      * @return  True if we are running in an application construction
      *          environment.

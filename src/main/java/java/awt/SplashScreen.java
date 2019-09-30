@@ -51,7 +51,7 @@ import sun.awt.image.SunWritableRaster;
  * For example, in the <code>manifest.mf</code> file:
  * <PRE>
  * Manifest-Version: 1.0
- * Main-Class: Test
+ * Main-Class: ExercisesOne
  * SplashScreen-Image: filename.gif
  * </PRE>
  * <P>
@@ -63,7 +63,7 @@ import sun.awt.image.SunWritableRaster;
  * <BR>
  * For example:
  * <PRE>
- * java -splash:filename.gif Test
+ * java -splash:filename.gif ExercisesOne
  * </PRE>
  * The command line interface has higher precedence over the manifest
  * setting.

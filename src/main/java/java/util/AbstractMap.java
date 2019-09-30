@@ -555,7 +555,7 @@ public abstract class AbstractMap<K,V> implements Map<K,V> {
 
     /**
      * Utility method for SimpleEntry and SimpleImmutableEntry.
-     * Test for equality, checking for nulls.
+     * ExercisesOne for equality, checking for nulls.
      *
      * NB: Do not replace with Object.equals until JDK-8015417 is resolved.
      */

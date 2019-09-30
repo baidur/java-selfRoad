@@ -476,7 +476,7 @@ class SocksSocketImpl extends PlainSocketImpl implements SocksConsts {
         out.write(PROTO_VERS);
         out.write(CONNECT);
         out.write(0);
-        /* Test for IPV4/IPV6/Unresolved */
+        /* ExercisesOne for IPV4/IPV6/Unresolved */
         if (epoint.isUnresolved()) {
             out.write(DOMAIN_NAME);
             out.write(epoint.getHostName().length());
@@ -588,7 +588,7 @@ class SocksSocketImpl extends PlainSocketImpl implements SocksConsts {
         }
         super.bind(baddr, lport);
         byte[] addr1 = baddr.getAddress();
-        /* Test for AnyLocal */
+        /* ExercisesOne for AnyLocal */
         InetAddress naddr = baddr;
         if (naddr.isAnyLocalAddress()) {
             naddr = AccessController.doPrivileged(

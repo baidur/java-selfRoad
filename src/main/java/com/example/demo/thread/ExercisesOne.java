@@ -1,14 +1,14 @@
-package com.example.demo;
+package com.example.demo.thread;
 
 /**
  * 题目二：写两个线程，一个线程打印152，另一个线程打印AZ，打印顺序是12A34B...5152Z；
  */
-public class Test {
+public class ExercisesOne {
 
     private volatile static boolean flag = false;
 
     public static void main(String[] args) {
-        Test test = new Test();
+        ExercisesOne test = new ExercisesOne();
         new Thread(() ->{
             for(int i=1;i <= 26;i++){
                 test.printNum(i);

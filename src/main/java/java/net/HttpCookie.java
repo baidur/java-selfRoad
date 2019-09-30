@@ -694,7 +694,7 @@ public final class HttpCookie implements Cloneable {
     }
 
     /**
-     * Test the equality of two HTTP cookies.
+     * ExercisesOne the equality of two HTTP cookies.
      *
      * <p> The result is {@code true} only if two cookies come from same domain
      * (case-insensitive), have same name (case-insensitive), and have same path

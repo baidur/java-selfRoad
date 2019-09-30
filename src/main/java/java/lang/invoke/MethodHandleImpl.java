@@ -846,7 +846,7 @@ import static java.lang.invoke.MethodHandles.Lookup.IMPL_LOOKUP;
             } catch (ReflectiveOperationException ex) {
                 throw uncaughtException(ex);
             }
-            // Test the invoker, to ensure that it really injects into the right place.
+            // ExercisesOne the invoker, to ensure that it really injects into the right place.
             try {
                 MethodHandle vamh = prepareForInvoker(MH_checkCallerClass);
                 Object ok = bccInvoker.invokeExact(vamh, new Object[]{hostClass, bcc});

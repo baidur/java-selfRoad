@@ -90,7 +90,7 @@ public class StringSelection implements Transferable, ClipboardOwner {
      * @throws NullPointerException if flavor is <code>null</code>
      */
     public boolean isDataFlavorSupported(DataFlavor flavor) {
-        // JCK Test StringSelection0003: if 'flavor' is null, throw NPE
+        // JCK ExercisesOne StringSelection0003: if 'flavor' is null, throw NPE
         for (int i = 0; i < flavors.length; i++) {
             if (flavor.equals(flavors[i])) {
                 return true;
@@ -126,7 +126,7 @@ public class StringSelection implements Transferable, ClipboardOwner {
     public Object getTransferData(DataFlavor flavor)
         throws UnsupportedFlavorException, IOException
     {
-        // JCK Test StringSelection0007: if 'flavor' is null, throw NPE
+        // JCK ExercisesOne StringSelection0007: if 'flavor' is null, throw NPE
         if (flavor.equals(flavors[STRING])) {
             return (Object)data;
         } else if (flavor.equals(flavors[PLAIN_TEXT])) {

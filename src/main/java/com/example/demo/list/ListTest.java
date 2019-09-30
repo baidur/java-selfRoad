@@ -1,4 +1,4 @@
-package com.example.demo;
+package com.example.demo.list;
 
 import java.util.Iterator;
 import java.util.LinkedList;

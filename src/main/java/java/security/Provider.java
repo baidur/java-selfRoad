@@ -1688,7 +1688,7 @@ public abstract class Provider extends Properties {
         }
 
         /**
-         * Test whether this Service can use the specified parameter.
+         * ExercisesOne whether this Service can use the specified parameter.
          * Returns false if this service cannot use the parameter. Returns
          * true if this service can use the parameter, if a fast test is
          * infeasible, or if the status is unknown.
