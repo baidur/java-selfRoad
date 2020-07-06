@@ -13,6 +13,7 @@ public class Test {
     }
 
     public static void main(String[] args) {
+        System.out.println("第一次提交");
         list.add(5);
         list.add(6);
         list = Collections.unmodifiableList(list);
