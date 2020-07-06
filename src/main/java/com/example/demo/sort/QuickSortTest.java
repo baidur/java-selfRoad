@@ -1,6 +1,7 @@
 package com.example.demo.sort;
 
 import java.util.Arrays;
+import java.util.Random;
 
 /**
  * 时间复杂度：O(nlogn)
@@ -10,9 +11,15 @@ import java.util.Arrays;
 public class QuickSortTest {
 
     public static void main(String[] args) {
-        int[] arr = {5,3,1,7,8,2,6,6,9};
+        long start = System.currentTimeMillis();
+        int[] arr = new int[1000000];
+        for(int i = 0;i < 1000000;i++){
+            arr[i] = new Random().nextInt(100);
+        }
         testSort(arr,0,arr.length - 1);
-        Arrays.stream(arr).forEach((System.out::println));
+        long end = System.currentTimeMillis();
+        System.out.println(end - start);
+      //  Arrays.stream(arr).forEach((System.out::println));
     }
 
     public static void sort(int[] array, int left, int right){

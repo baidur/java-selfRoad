@@ -10,7 +10,7 @@ public class SyncTest {
     private static int i = 0;
     static int count = 0;
     public static void main(String[] args) throws InterruptedException {
-        Thread thread1 = run("one");
+        Thread thread1 = run("AddTwoNumbers");
         Thread thread2 = run("two");
         Thread thread3 = run("three");
         thread1.start();

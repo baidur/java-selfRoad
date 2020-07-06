@@ -1,6 +1,7 @@
 package com.example.demo.sort;
 
 import java.util.Arrays;
+import java.util.Random;
 
 /**
  * 归并排序是一种概念上最简单的排序算法，与快速排序一样，归并排序也是基于分治法的。归并排序将待排序的元素序列分成两个长度相等的子序列，
@@ -11,9 +12,15 @@ import java.util.Arrays;
 public class MergeSortTest {
 
     public static void main(String[] args) {
-        int[] arr = {5,3,1,7,8,2,6,6,9};
+        long start = System.currentTimeMillis();
+        int[] arr = new int[1000000];
+        for(int i = 0;i < 1000000;i++){
+            arr[i] = new Random().nextInt(100);
+        }
         sort(arr,0,arr.length - 1);
-        Arrays.stream(arr).forEach((System.out::println));
+        long end = System.currentTimeMillis();
+        System.out.println(end - start);
+       // Arrays.stream(arr).forEach((System.out::println));
     }
 
     //两路归并算法，两个排好序的子序列合并为一个子序列
