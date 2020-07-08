@@ -24,6 +24,7 @@ import java.util.List;
  */
 public class FourSum {
     public static List<List<Integer>> fourSum(Integer[] nums, int target) {
+        System.out.println("master");
         List<List<Integer>> all = new ArrayList<>(10);
         List<Integer> list = new ArrayList<>();
         list.addAll(Arrays.asList(nums));
