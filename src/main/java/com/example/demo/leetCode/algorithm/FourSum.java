@@ -27,6 +27,7 @@ public class FourSum {
         List<List<Integer>> all = new ArrayList<>(10);
         List<Integer> list = new ArrayList<>();
         list.addAll(Arrays.asList(nums));
+
         int right = 4,sum = 0;
         if(nums.length < 4){
             for(int i = 0;i < nums.length;i++){
