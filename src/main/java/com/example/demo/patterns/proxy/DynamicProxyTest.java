@@ -7,12 +7,15 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.lang.reflect.Modifier;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * 动态代理:Proxy+InvocationHandler
  * Jdk的动态代理由Proxy这个类来生成，它有三个参数：
  *
- * ClassLoader loader,:指定当前目标对象使用类加载器,获取加载器的方法是固定的
+ * ClassLoaders loader,:指定当前目标对象使用类加载器,获取加载器的方法是固定的
  * Class<?>[] interfaces,:目标对象实现的接口的类型,使用泛型方式确认类型
  * InvocationHandler h:事件处理,执行目标对象的方法时,会触发事件处理器的方法,会把当前执行目标对象的方法作为参数传入
  */
@@ -34,5 +37,9 @@ public class DynamicProxyTest {
         OutputStream outputStream = new FileOutputStream(file);
         outputStream.write(proxyClassFile);
 
+        List<String> list = Arrays.asList("静脉采血大屏, 检验科大屏幕".split(","));
+        if(list.contains("检验科大屏幕")){
+            System.out.println(1111);
+        }
     }
 }
