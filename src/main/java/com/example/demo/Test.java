@@ -1,5 +1,7 @@
 package com.example.demo;
 import java.util.*;
+
+import cn.hutool.core.date.DateTime;
 import com.example.demo.aop.User;
 import java.util.ArrayList;
 import java.util.concurrent.ConcurrentHashMap;
@@ -12,8 +14,9 @@ public class Test {
 
     public static void main(String[] args){
 
-        Test test = new Test();
-        test.c();
+        Date date = new Date();
+        System.out.println(new DateTime(date));
+        System.out.println(date);
     }
 
     public void c(){
