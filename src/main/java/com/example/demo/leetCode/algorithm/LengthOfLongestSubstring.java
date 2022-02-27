@@ -11,7 +11,7 @@ import java.util.Set;
  * 输出: 3
  * 解释: 因为无重复字符的最长子串是 "abc"，所以其长度为 3。
  */
-public class lengthOfLongestSubstring {
+public class LengthOfLongestSubstring {
 
     public static int lengthOfLongestSubstring2(String s) {
         // 哈希集合，记录每个字符是否出现过
